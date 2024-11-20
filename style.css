@@ -1,0 +1,120 @@
+*{
+    padding: 1px;
+    margin: 1px;
+    box-sizing: border-box;
+   
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    width: 100%;
+    height: 360px;
+}
+
+section{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4); 
+    backdrop-filter: blur(4px);
+    border-top: solid 5px chocolate;
+    border-bottom: solid 5px chocolate;
+    width: 50%;
+    height: 450px;
+}
+
+
+
+section{
+    padding-bottom: 20px;
+}
+
+
+section
+{
+    color: red;
+    outline: none;
+    border-color: 8px solid chocolate;
+    padding: 5px 10px;
+    border-top: 8px  solid chocolate;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .7s ease;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    
+    
+}
+
+.bloc1{
+    margin-top: -60%;
+    margin-left: 53%;
+}
+
+.bloc2{
+    margin-top: 19px;
+}
+
+section:hover
+{
+    
+    color: chocolate;
+    border: 2px black solid;
+    box-shadow: 0 0 10px gray;
+}
+
+img{
+    letter-spacing: 1.5px;
+    color: chocolate;
+    border: 2px black solid;
+    box-shadow: 0 0 10px gray;
+    height: auto;
+    width: 310px;
+    margin-top: 50;
+
+}
+
+
+
+a button
+{
+    
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    border: 2px  solid chocolate;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .7s ease;
+
+
+}
+ 
+a button:hover
+{
+    
+    letter-spacing: 1.5px;
+    color: crimson;
+    border: 2px black solid;
+    box-shadow: 0 0 10px gray;
+
+}
+
+.button{
+    margin-top: -14%;
+}
+.bloc3{
+    margin-right: -60%;
+}
+
+span{
+    color: black ;
+    font-weight: 700;
+    }
